@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja Lista TODO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="todo-container">
+        <h2>Lista Zadań</h2>
+        
+        <input type="text" id="search-input" placeholder="Szukaj zadania (min. 2 znaki)...">
+
+        <div id="todo-list-root"></div>
+
+        <div class="add-panel">
+            <input type="text" id="new-task-name" placeholder="Co jest do zrobienia?">
+            <input type="date" id="new-task-date">
+            <button id="add-btn">Dodaj</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
