@@ -1,3 +1,7 @@
+const msg: string = "Hello!";
+alert(msg);
+
+
 const availableStyles: { [key: string]: string } = {
     'Klasyczny': 'style-1.css',
     '\tCiemny': 'style-2.css',
